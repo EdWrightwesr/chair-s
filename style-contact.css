@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.padding-site{
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.slider{
+    height: 361px;
+    position: relative;
+    background-color: #F5F5F5;
+}
+
+.slider-h2{
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    margin-top: 154px;
+    letter-spacing: -2.5px;
+}
+
+.header{
+    padding-top: 63px;
+}
+
+.menu{
+    float: right;
+}
+
+.menu-list{
+    list-style-type: none;
+    float: left;
+}
+
+.menu li a:hover{
+    color: #212121;
+    border-bottom: 3px solid black;
+    font-weight: 700;
+}
+
+.menu-link{
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px 13px;
+    text-decoration: none;
+}
+
+/*Блок 2*/
+.slider-text{
+    height: 562px;
+}
+
+.header2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.block{
+    border: 1px solid #8c8c8c;
+    width: 371px;
+    height: 371px;
+    margin-top: 69px;
+    padding-top: 49px;
+}
+
+.california{
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 23px;
+}
+
+.phone{
+    font-size: 14px;
+    color: #9C9C9C;
+    padding-top: 14px;
+    font-weight: 700;
+    padding-bottom: 2px;
+}
+
+.tel{
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+}
+
+.west{
+    color: #9C9C9C;
+}
+
+.footer{
+    height: 385px;
+    background-color: #F5F5F5;
+    position: relative;
+}
+
+/*Блок footer*/
+
+.info{
+    padding-top: 116px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.contacts-us{
+   float: left;
+    width: 300px;
+}
+
+.bridge{
+    font-size: 14px;
+    font-weight: 300;
+    color: #212121;
+    padding-right: 37px;
+    line-height: 1.57;
+    padding-bottom: 22px;
+}
+.useful{
+    float: left;
+    width: 500px;
+}
+
+.sales{
+    float: left;
+    padding-right: 102px;
+}
+
+.both{
+    font-size: 14px;
+    font-weight: 700;
+    color: #212121;
+    text-transform: uppercase;
+    line-height: 1.8;
+}
+
+.let > p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #212121;
+    letter-spacing: -0.1px;
+    padding-bottom: 25px;
+}
+
+.email{
+    position: block;
+    width: 336px;
+    padding: 18px 20px 17px 10px;
+    font-size: 14px;
+}
+
+.form{
+    position: relative;
+    box-sizing: border-box;
+}
+
+.button2{
+    position: absolute;
+    margin-left: -36px;
+    background-repeat:no-repeat;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    margin-top: 17px;
+}
+.contact{
+    color: #6C6C6C;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    padding-bottom: 14px;
+}
+
+.copyright{
+    overflow: hidden;
+    position: relative;
+}
+
+.condition{
+    float: left;
+    padding-right: 152px;
+    margin-top: 49px;
+}
+
+.web > a > img{
+    height: 28px;
+    width: 28px;
+    float: left;
+    padding-left: 6px;
+}
+
+.web{
+    margin-top: 42px;
+}
+.copyright > h6{
+    font-size: 12px;
+    color: #6C6C6C;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+}
+
+.int{
+    padding-left: 170px;
+    overflow: hidden;
+    margin-top: 49px;
+}

@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider{
+    height: 800px;
+    background-image: url(home/Без-имени-1.jpg);
+    position: relative;
+}
+
+.slider2{
+    height: 609px;
+    background-color: #fff;
+    position: relative;
+}
+
+.slider3{
+    height: 683px;
+    position: relative;
+}
+
+.slider4{
+    height: 1108px;
+    background-color:#fff;
+    position: relative;
+}
+
+.slider5{
+    height: 800px;
+    background-image: url(home/desk.jpeg);
+    position: relative;
+}
+
+.slider6{
+    height: 810px;
+    background-color: #fff;
+    position: relative;
+}
+
+.slider7{
+    height: 516px;
+    background-image: url(home/back-img.jpeg);
+    position: relative;
+}
+
+.footer{
+    height: 385px;
+    background-color: #fff;
+    position: relative;
+}
+
+.header2{
+    padding-top: 112px;
+}
+
+.header{
+    padding-top: 63px;
+}
+
+.header4{
+    padding-top: 119px;
+    padding-bottom: 2px;
+}
+
+.padding-site{
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.menu{
+    float: right;
+}
+
+.menu2-explore{
+    float: right;
+}
+
+.menu li a:hover{
+    color: #212121;
+    border-bottom: 3px solid black;
+    font-weight: 700;
+}
+
+.menu2 li a:hover{
+    color: #212121;
+    border-bottom: 3px solid black;
+    
+}
+.menu-list{
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link{
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px 13px;
+    text-decoration: none;
+}
+
+.menu-link2{
+    color: #8c8c8c;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 10px 15.5px;
+    text-decoration: none;
+}
+
+.menu2-explore{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.explore{
+    padding: 18px 3px;
+    letter-spacing: 2.5px;
+    text-decoration: none;
+    color: #212121;
+}
+
+/*Блок4*/
+.explore1{
+    padding: 24px 3px;
+    letter-spacing: 2.5px;
+    text-decoration: none;
+    color: #212121;
+}
+
+.menu-tp{
+    float: left;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    opacity: 1;
+}
+/*.menu-link:hover{
+    color: #212121;
+}
+
+.menu-link-active{
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+    text-decoration: none;
+} */
+
+.slider-text2{
+    overflow: hidden;
+}
+
+.slider-table{
+    display: inline-block;
+    position: relative;
+}
+
+.slider-textall{
+    position: absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(255,255,255, 0.7);
+    padding:5px;
+    display:none;
+}
+
+.slider-table:hover .slider-textall{
+    display:block;
+}
+
+.slider-left{
+    padding-left: 25px;
+    margin-top: 50px;
+}
+
+.slider-text-left{
+    margin-left: 25px;
+    margin-bottom: 4px;
+}
+
+.slider-text-1{
+    margin-bottom: 4px;
+}
+
+.slider-textall > a{
+    padding-top: 62px;
+    padding-left: 11px;
+    padding-left: 111px;
+}
+
+.slider-textall > a > img[alt='knopka2']{
+    margin-top: 62px;
+    box-shadow: 0 4px 5px -1px rgb(33, 33, 33, 0.35);
+    border-radius: 22px;
+}
+
+.slider-h6{
+    padding-top: 19px;
+    padding-left: 56px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.slider-content2{
+    padding-top: 10px;
+    padding-left: 4px;
+    font-size: 14px;
+    color: #6c6c6c;
+    text-align: center;
+}
+
+/* Блок 3 */
+.slider-text-block3{
+    display: inline-block;
+    position: relative;
+}
+
+.slider-text3{
+    position: absolute;
+    top: 228px;
+    right: 0;
+    left: 51px;
+    bottom: 0;
+}
+
+.slider-exclusive{
+    color: #1E88E5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slider-h3{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.slider-content3{
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 374px;
+    margin-top: 11px;
+    margin-bottom: 25px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+}
+
+.slider-block4{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.slider-flex{
+    margin-top: 26px;
+}
+
+/*Блок 5*/
+.slider-text > .slider-color{
+    color: #E53935;
+}
+
+/*Блок 6*/
+.slider-block6{
+    display: grid;
+    grid-template-areas: 
+    'item1 item2 item3'
+    'item1 item4 item5';
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+.item1{ grid-area: item1;}
+.item2{ grid-area: item2;}
+.item3{ grid-area: item3;}
+.item4{ 
+    grid-area: item4;
+    padding-top: 26px;
+}
+.item5{ 
+    grid-area: item5;
+    padding-top: 26px;
+}
+
+.slider-text6{
+    padding-left: 76px;
+    padding-top: 83px;
+}
+
+/*Блок 7*/
+.slider-text7{
+    margin-top: 120px;
+}
+
+.slider-text7 > .slider-content7{
+    font-size: 22px;
+    margin-top: 6px;
+}
+
+.button-app{
+    padding-top: 12px;
+}
+
+.app-1{
+    padding-left: 10px;
+}
+
+/*Блок footer*/
+
+.info{
+    padding-top: 116px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.contacts-us{
+   float: left;
+    width: 300px;
+}
+
+.bridge{
+    font-size: 14px;
+    font-weight: 300;
+    color: #212121;
+    padding-right: 37px;
+    line-height: 1.57;
+    padding-bottom: 22px;
+}
+.useful{
+    float: left;
+    width: 500px;
+}
+
+.sales{
+    float: left;
+    padding-right: 102px;
+}
+
+.both{
+    font-size: 14px;
+    font-weight: 700;
+    color: #212121;
+    text-transform: uppercase;
+    line-height: 1.8;
+}
+
+.let > p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #212121;
+    letter-spacing: -0.1px;
+    padding-bottom: 25px;
+}
+
+.email{
+    position: block;
+    width: 336px;
+    padding: 18px 20px 17px 10px;
+    font-size: 14px;
+}
+
+.form{
+    position: relative;
+    box-sizing: border-box;
+}
+
+.button2{
+    position: absolute;
+    margin-left: -36px;
+    background-repeat:no-repeat;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    margin-top: 17px;
+}
+.contact{
+    color: #6C6C6C;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    padding-bottom: 14px;
+}
+
+.copyright{
+    overflow: hidden;
+    position: relative;
+}
+
+.condition{
+    float: left;
+    padding-right: 152px;
+    margin-top: 49px;
+}
+
+.web > a > img{
+    height: 28px;
+    width: 28px;
+    float: left;
+    padding-left: 6px;
+}
+
+.web{
+    margin-top: 42px;
+}
+.copyright > h6{
+    font-size: 12px;
+    color: #6C6C6C;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+}
+
+.int{
+    padding-left: 170px;
+    overflow: hidden;
+    margin-top: 49px;
+}
+
+
+
+/* Блок 1 */
+.slider-trending{
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slider-h2{
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.slider-content{
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.slider-text {
+    margin-top: 283px;
+}
+.button{
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #fff;
+    width: 212px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+}
+
+.pagination{
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle-active{
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin-bottom: 0px;
+}
+
+.circle:hover{
+    background-color: #212121;
+}
+
+
+
+
